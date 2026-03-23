@@ -1,0 +1,10 @@
+{
+  "name": "shopwave",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
